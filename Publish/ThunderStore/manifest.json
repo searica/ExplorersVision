@@ -1,0 +1,11 @@
+{
+    "name": "ExplorersVision",
+    "author": "Searica",
+    "version_number": "0.1.0",
+    "website_url": "https://discord.gg/sFmGTBYN6n",
+    "description": "Configurable dynamic map explortation radius based on environmental visibility factors with optional configuration syncing if on server.",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2202",
+        "ValheimModding-Jotunn-2.23.0"
+    ]
+}
