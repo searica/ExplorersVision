@@ -12,14 +12,29 @@ internal static class MapRadiusPatches
     ///     Adjust radius when exploring.
     /// </summary>
     /// <param name="__instance"></param>
-    /// <param name="p"></param>
-    /// <param name="radius"></param>
+    /// <param name="__state"></param>
     [HarmonyPrefix]
-    [HarmonyPatch(typeof(Minimap), nameof(Minimap.Explore))]
-    private static void AdjustExploreRadius(Minimap __instance, Vector3 p, ref float radius)
+    [HarmonyPriority(Priority.Low)]
+    [HarmonyPatch(typeof(Minimap), nameof(Minimap.UpdateExplore))]
+    private static void AdjustExploreRadius_Prefix(Minimap __instance, out float __state)
     {
-        if(!Player.m_localPlayer) {  return; }
-        radius = GetExploreRadius(Player.m_localPlayer);
+        __state = __instance.m_exploreRadius;
+        if(Player.m_localPlayer) 
+        {
+            __instance.m_exploreRadius = GetExploreRadius(Player.m_localPlayer);
+        }
+    }
+
+    /// <summary>
+    ///     Reset radius after UpdateExplore.
+    /// </summary>
+    /// <param name="__instance"></param>
+    [HarmonyPostfix]
+    [HarmonyPriority(Priority.High)]
+    [HarmonyPatch(typeof(Minimap), nameof(Minimap.UpdateExplore))]
+    private static void AdjustExploreRadius_Postfix(Minimap __instance, ref float __state)
+    {
+        __instance.m_exploreRadius = __state;
     }
 
     private static float GetExploreRadius(Player player)
