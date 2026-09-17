@@ -45,19 +45,20 @@ If you like this mod you might like some of my other ones.
 - [AdvancedTerrainModifiers](https://thunderstore.io/c/valheim/p/Searica/AdvancedTerrainModifiers/)
 - [BuildRestrictionTweaksSync](https://thunderstore.io/c/valheim/p/Searica/BuildRestrictionTweaksSync/)
 - [ToolTweaks](https://thunderstore.io/c/valheim/p/Searica/ToolTweaks/)
+- [MeasureTwice](https://thunderstore.io/c/valheim/p/Searica/MeasureTwice/)
 
 #### Gameplay Mods
 - [CameraTweaks](https://thunderstore.io/c/valheim/p/Searica/CameraTweaks/)
 - [DodgeShortcut](https://thunderstore.io/c/valheim/p/Searica/DodgeShortcut/)
+- [DiscoveryPins](https://thunderstore.io/c/valheim/p/Searica/DiscoveryPins/)
+- [ExplorersVision](https://thunderstore.io/c/valheim/p/Searica/ExplorersVision/)
 - [FortifySkillsRedux](https://thunderstore.io/c/valheim/p/Searica/FortifySkillsRedux/)
 - [ProjectileTweaks](https://thunderstore.io/c/valheim/p/Searica/ProjectileTweaks/)
 - [SkilledCarryWeight](https://thunderstore.io/c/valheim/p/Searica/SkilledCarryWeight/)
 - [SafetyStatus](https://thunderstore.io/c/valheim/p/Searica/SafetyStatus/)
 - [ShowMeTheGoods](https://thunderstore.io/c/valheim/p/Searica/ShowMeTheGoods/)
+- [UnderTheSea](https://thunderstore.io/c/valheim/p/Searica/UnderTheSea/)
 - [WatchWhereYouStab](https://thunderstore.io/c/valheim/p/Searica/WatchWhereYouStab/)
-
-#### Map Mods
-- [DiscoveryPins](https://thunderstore.io/c/valheim/p/Searica/DiscoveryPins/)
 
 #### Networking Mods
 - [NetworkTweaks](https://thunderstore.io/c/valheim/p/Searica/NetworkTweaks/)
